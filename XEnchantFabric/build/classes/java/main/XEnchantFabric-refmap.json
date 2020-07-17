@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/majicktek/xenchant/mixin/MinecraftClientMixin": {
+      "Lnet/minecraft/datafixer/Schemas;getFixer()Lcom/mojang/datafixers/DataFixer;": "Lnet/minecraft/class_3551;method_15450()Lcom/mojang/datafixers/DataFixer;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/majicktek/xenchant/mixin/MinecraftClientMixin": {
+        "Lnet/minecraft/datafixer/Schemas;getFixer()Lcom/mojang/datafixers/DataFixer;": "Lnet/minecraft/class_3551;method_15450()Lcom/mojang/datafixers/DataFixer;"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.majicktek.xenchant.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ],
+  "client": [
+    "EnchantCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

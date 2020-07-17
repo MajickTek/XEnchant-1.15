@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "xenchant",
+  "version": "1.0.7",
+
+  "name": "XEnchant",
+  "description": "A Simple mod to unrestrict the /enchant command. Go wild!",
+  "authors": [
+    "MajickTek"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/xenchant/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.majicktek.xenchant.XEnchantEntry"
+    ]
+  },
+  "mixins": [
+    "xenchant.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": ">=1.16"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

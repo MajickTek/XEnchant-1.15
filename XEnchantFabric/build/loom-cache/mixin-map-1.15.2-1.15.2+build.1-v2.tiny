@@ -1,0 +1,8 @@
+v1	named	intermediary
+FIELD	com/majicktek/xenchant/mixin/EnchantCommandMixin	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	FAILED_ENTITY_EXCEPTION	field_13629
+FIELD	com/majicktek/xenchant/mixin/EnchantCommandMixin	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	FAILED_ITEMLESS_EXCEPTION	field_13631
+FIELD	com/majicktek/xenchant/mixin/EnchantCommandMixin	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	FAILED_INCOMPATIBLE_EXCEPTION	field_13633
+FIELD	com/majicktek/xenchant/mixin/EnchantCommandMixin	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	FAILED_LEVEL_EXCEPTION	field_13632
+FIELD	com/majicktek/xenchant/mixin/EnchantCommandMixin	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	FAILED_EXCEPTION	field_13630
+FIELD	com/majicktek/xenchant/mixin/MinecraftClientMixin	Lnet/minecraft/resource/ResourcePackManager;	resourcePackManager	field_1715
+METHOD	com/majicktek/xenchant/mixin/EnchantCommandMixin	(Lnet/minecraft/server/command/ServerCommandSource;Ljava/util/Collection;Lnet/minecraft/enchantment/Enchantment;I)I	execute	method_13241
